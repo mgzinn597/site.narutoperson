@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Personagens Naruto</title>
+    
+    <link rel="icon" type="image/jpeg" href="./src/imagens/logo2.jpg">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+</head>
+<body>
+
+
+    <h1>🔎 Proucure seu personagem de Naruto</h1>
+
+    <input type="text" id="inputPersonagem" placeholder="Ex: Naruto Uzumaki">
+    <button onclick="buscarPersonagem()">Buscar <span id="loading-spinner"></span></button>
+
+    <div id="loading-spinner"></div>
+    <div id="resultado"></div>
+    <div id="character-gallery">
+        <div class="character-preview" onclick="buscarPersonagemComNome('Naruto Uzumaki')">
+            <img src="./src/imagens/naruto-uzumaki-3617.jpg" alt="Naruto Uzumaki">
+            <span>Naruto Uzumaki</span>
+        </div>
+
+        <div class="character-preview" onclick="buscarPersonagemComNome('Sasuke Uchiha')">
+            <img src="./src/imagens/sasuke-uchiha.jpg" height="1440" width="2560" alt="Sasuke Uchiha">
+            <span>Sasuke Uchiha</span>
+        </div>
+
+        <div class="character-preview" onclick="buscarPersonagemComNome('Kakashi Hatake')">
+            <img src="./src/imagens/kakashi-hatake.jpg" alt="Kakashi Hatake">
+            <span>Kakashi Hatake</span>
+        </div>
+
+        <div class="character-preview" onclick="buscarPersonagemComNome('Sakura Haruno')">
+            <img src="./src/imagens/sakura-haruno.jpg" alt="Sakura Haruno">
+            <span>Sakura Haruno</span>
+        </div>
+        <div class="character-preview" onclick="buscarPersonagemComNome('Itachi Uchiha')">
+            <img src="./src/imagens/ithachi-uchiha.jpg" alt="Itachi Uchiha">
+            <span>Itachi Uchiha</span>
+        </div>
+
+        <div class="character-preview" onclick="buscarPersonagemComNome('Hinata Hyūga')">
+            <img src="./src/imagens/Hinata-Hyūga.jpg" alt="Hinata Hyūga">
+            <span>Hinata Hyūga</span>
+        </div>
+        <div class="character-preview" onclick="buscarPersonagemComNome('Gaara')">
+            <img src="./src/imagens/gaara.png" alt="Gaara">
+            <span>Gaara</span>
+        </div>
+        <div class="character-preview" onclick="buscarPersonagemComNome('Jiraiya')">
+            <img src="./src/imagens/jiraiya.jpg" alt="Jiraiya">
+            <span>Jiraiya</span>
+        </div>
+        <div class="character-preview" onclick="buscarPersonagemComNome('Orochimaru')">
+            <img src="./src/imagens/orochimaru.jpg" alt="Orochimaru">
+            <span>Orochimaru</span>
+        </div>
+        <div class="character-preview" onclick="buscarPersonagemComNome('Tsunade')">
+            <img src="./src/imagens/tsunade.jpg" alt="Tsunade">
+            <span>Tsunade</span>
+        </div>
+        <div class="character-preview" onclick="buscarPersonagemComNome('Madara Uchiha')">
+            <img src="./src/imagens/madara.jpg" alt="Madara Uchiha">
+            <span>Madara Uchiha</span>
+        </div>
+        <div class="character-preview" onclick="buscarPersonagemComNome('Minato Namikaze')">
+            <img src="./src/imagens/minato.jpg" alt="Minato Namikaze">
+            <span>Minato Namikaze</span>
+        </div>
+    </div>
+</body>
+<script src="./src/js/scripit.js"></script>
+</html>
